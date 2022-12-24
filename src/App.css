@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#0df1e6,rgb(233, 75, 214),rgb(157, 243, 59));
+  font-family: cursive;
+}
+#Nav{
+  background-color: rgb(94, 99, 109);
+  padding: 5px;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link{
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(241, 201, 201);
+}
+.active{
+  background-color: rgb(238, 201, 145);
+  color: black;
+}
+.text{
+  margin-left: 5rem;
+  font-size: 1.3rem;
+}
+.head{
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-gap: 15vh;
+  justify-content: space-between;
+}
+
+.btn{
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: rgb(252, 163, 216);
+}
+th{
+  background-color: white;
+  height: 30px;
+  width: 200px;
+}
+td{
+  background-color: white;
+  border-collapse: collapse;
+  height: 30px;
+  text-align: center;
+}
+.b{
+  width: 65vw;
+  margin: 20vh 6vw 10vh;
+}
+.in{
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid rgb(116, 111, 111);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+.in:hover{
+  border: 1px solid black;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.btn1{
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.btn2{
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 30px;
+}
